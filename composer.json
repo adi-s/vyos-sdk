@@ -1,0 +1,27 @@
+{
+    "name": "adi-s/vyos-sdk",
+    "description": "A PHP Wrapper for the VyOS API",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AdiS\\VyosSdk\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Adrian Schmid",
+            "email": "adrian@flow.swiss"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11"
+    },
+    "config": {
+        "lock": false
+    }
+}
